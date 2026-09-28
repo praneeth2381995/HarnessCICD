@@ -23,7 +23,7 @@ pipeline:
     ci:
       codebase:
         # CHANGE THIS: Your GitHub connector name (add "account." if it's account-level)
-        connectorRef: account.git
+        connectorRef: project.git
         # CHANGE THIS: Your GitHub repository name
         repoName: HarnessCICD
         build: <+input>
